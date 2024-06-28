@@ -29,6 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
@@ -1594,12 +1595,13 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
+		background-color: #E3AC9C;
 		color: #ffffff;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
 		padding: 0.7em 1.5em 0.7em 1.5em;
+		transition-duration: 0.4s;
 	}
 
 		input[type="button"]:hover,
