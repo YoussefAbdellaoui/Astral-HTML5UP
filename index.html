@@ -33,7 +33,7 @@
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Welcome fellow developer 👋🏽</h1>
-									<p>Die Entwicklerhölle, <strong>Programmierfehler</strong></p>
+									<p>Die Entwicklerhölle, <b>Programmierfehler</b></p>
 
 									<!-- Handout in browser -->
 										<form method="get" action="assets/handout.pdf">
@@ -41,7 +41,7 @@
 										 </form>
 									</header>
 								</header>
-								<a href="#work" class="jumplink pic">
+								<a href="" class="jumplink pic">
 									<img src="images/404error.jpg" alt="" />
 								</a>
 							</article>
@@ -52,14 +52,18 @@
 									<h2>Syntaxfehler</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									Ein Syntax Fehler ist ein Fehler in der <strong>Grammatik</strong> oder <strong>Satzbau</strong> eines Codes ein Bekanntes Beispiel für
+									Syntax Fehler sind das Fehlende Semikolon im code <br> <br>
+									
+									Der Fehler hier liegt in den generischen <b>Übergabeparametern.</b> Die Regel legt fest, dass der
+									<b>Übergabeparameter</b> von Kfz erben soll. In der <b>Methode</b> möchte man jedoch auf Eigenschaften der
+									Klasse Auto <b>zugreifen</b>. Dies ist nicht möglich, da man nur auf die Eigenschaften von Kfz zugreifen
+									kann, da diese garantiert sind.
 								</p>
 								<section>
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class=""><img src="images/syntax.jpg" alt=""></a>
+											<a href="" class=""><img src="images/syntax.jpg" alt=""></a>
 										</div>
 									</div>
 								</section>
@@ -71,14 +75,15 @@
 									<h2>Logikfehler</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									Die Logik Fehler treten dann auf wenn der Compiler <strong>keine Fehler anzeigt</strong>, das Programm aber nicht
+									das erwartete Ergebnis abliefert. <br><br>Hier ist der Fehler das der Übergabe Parameter nicht in der <strong>URL</strong>
+									vom <strong>API</strong> Call eingebaut wird und
+									somit immer die daten von 123 abgerufen werden obwohl die id sich geändert hat. 🤔
 								</p>
 								<section>
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class=""><img src="images/logic.jpg" alt=""></a>
+											<a href="" class="image"><img src="images/logic.jpg" alt=""></a>
 										</div>
 									</div>
 								</section>
@@ -90,14 +95,17 @@
 									<h2>Laufzeitfehler</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									Tritt auf wenn nach dem <b>Start</b> von einem <b>Problem</b> ein unerwartetes Problem kommt und das
+									Program abbricht oder abstürzt. <br><br>
+
+									Der Fehler hier ist das man die Listenanzahl (List.Count) als Parameter gibt und dann in der Schleife
+									weiter werte in die schleife gibt somit wird die Listenanzahl immer höher und dann kommt die
+									<b>Exception: System.OutOfMemoryException</b> weil die Liste zu groß geworden ist 🙂
 								</p>
 								<section>
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class=""><img src="images/timeout.jpg" alt=""></a>
+											<a href="" class=""><img src="images/timeout.jpg" alt=""></a>
 										</div>									
 									</div>
 								</section>
