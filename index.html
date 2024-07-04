@@ -40,7 +40,7 @@
 					<p>Die Entwicklerhölle, <b>Programmierfehler</b></p>
 
 					<!-- Handout in browser -->
-					<form method="get" action="assets/handout.pdf">
+					<form method="get" action="assets/handout.pdf" target="_blank">
 						<button type="submit" class="button">Handout ⬇️</button>
 					</form>
 				</header>
@@ -57,20 +57,24 @@
 				</header>
 				<p>
 					Ein Syntax Fehler ist ein Fehler in der <strong>Grammatik</strong> oder im <strong>Satzbau</strong>
-					eines Codes. Das Fehlende Semikolon in unserem Beispiel Code, ist ein bekanntes Beispiel dafür. <br>
+					eines Codes. Das Fehlende Semikolon in unserem Code, ist ein bekanntes Beispiel dafür. <br>
 					<br>
-
 					Der Fehler hier liegt in den generischen <b>Übergabeparametern.</b> Die Regel legt fest, dass der
 					<b>Übergabeparameter</b> von Kfz erben soll. In der <b>Methode</b> möchte man jedoch auf
-					Eigenschaften der
-					Klasse Auto <b>zugreifen</b>. Dies ist nicht möglich, da man nur auf die Eigenschaften von Kfz
-					zugreifen
-					kann, da diese garantiert sind.
+					Eigenschaften der Klasse Auto <b>zugreifen</b>. Dies ist nicht möglich, da man nur auf die
+					Eigenschaften von Kfz zugreifen kann, da diese garantiert sind.
 				</p>
 				<section>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="" class=""><img src="images/syntax.jpg" alt=""></a>
+							<a href="" class=""><img src="images/syntax.jpg" alt="" style="max-width:100%;height:auto"></a>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="" class=""><img src="images/syntax-ide.jpg" alt=""  style="max-width:300%;height:auto"></a>
 						</div>
 					</div>
 				</section>
@@ -83,16 +87,14 @@
 				</header>
 				<p>
 					Die Logik Fehler treten dann auf wenn der Compiler <strong>keine Fehler anzeigt</strong>, das
-					Programm aber nicht
-					das erwartete Ergebnis abliefert. <br><br>Hier ist der Fehler das der Übergabeparameter nicht in
-					der <strong>URL</strong>
-					vom <strong>API Call</strong> eingebaut wird und
+					Programm aber nicht das erwartete Ergebnis abliefert.<br>Hier ist der Fehler das der Übergabeparameter
+					nicht in der <b>URL</b> vom <b>API Call</b> eingebaut wird und
 					somit immer die Daten von 123 abgerufen werden obwohl die <b>id</b> sich geändert hat. 🤔
 				</p>
 				<section>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="" class="image"><img src="images/logic.jpg" alt=""></a>
+							<a href="" class="image"><img src="images/logic.jpg" alt="" style="max-width:210%;height:auto"></a>
 						</div>
 					</div>
 				</section>
@@ -106,7 +108,6 @@
 				<p>
 					Laufzeitfehler werden nicht vom Compiler erkannt, sondern treten erst während der <b>Laufzeit</b>
 					ein.
-
 					Der Fehler hier ist das man die Listenanzahl <b>(List.Count)</b> als Parameter übergibt und dann in
 					der
 					Schleife weitere Werte in die Schleife zugibt. Die Listenanzahl wird immer höher und löst
@@ -116,7 +117,14 @@
 				<section>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="" class=""><img src="images/timeout.jpg" alt=""></a>
+							<a href="" class=""><img src="images/timeout.jpg" alt="" style="max-width:130%;height:auto"></a>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="" class=""><img src="images/logic-ide.jpg" alt=""  style="max-width:200%;height:auto"></a>
 						</div>
 					</div>
 				</section>
